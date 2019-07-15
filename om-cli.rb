@@ -2,9 +2,9 @@ require 'formula'
 
 class OmCli < Formula
   homepage 'https://github.com/pivotal-cf/om'
-  version "1.1.0"
+  version "2.0.1"
   url "https://github.com/pivotal-cf/om/releases/download/#{version}/om-darwin"
-  sha256 "69c4bc3b538fbdb83c5fd6a7bbf2c999293e28d8b895e9d09cd4a7211bce272c"
+  sha256 "63bda93dce923cced123ced4cbfea06d30b042b3dd9b9f9dc2eea99570b40ca2"
 
   depends_on :arch => :x86_64
 
