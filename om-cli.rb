@@ -9,7 +9,7 @@ class OmCli < Formula
   depends_on :arch => :x86_64
 
   def install
-    mv "om-darwin", "om"
+    mv "om-darwin-#{version}", "om"
     bin.install "om"
   end
 
